@@ -9,12 +9,26 @@
     /* PARTE SUPERIORE WEB APP */
     #head-wp .col-left {
         width: 15%;
-        background-color: red;
     }
 
     #head-wp .col-right {
         width: 85%;
         background-color: blueviolet;
+    }
+
+    /* MENU LATERALE */
+
+    .l-head {
+        display: none;
+    }
+
+    #l-menu .col-hide {
+        display: none;
+    }
+
+    #l-menu .col {
+        width: 43%;
+        background-color: red;
     }
 }
 
@@ -30,4 +44,9 @@
         background-color: blueviolet;
     }
 
+    /* MENU LATEWRALE */
+
+    #l-menu {
+        display: none;
+    }
 }
