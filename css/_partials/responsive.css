@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+
+    /* ADATTAMENTO CONTAINER */
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* PARTE SUPERIORE WEB APP */
+    #head-wp .col-left {
+        width: 15%;
+        background-color: red;
+    }
+
+    #head-wp .col-right {
+        width: 85%;
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* PARTE SUPERIORE WEB APP */
+    #head-wp .col-left {
+        display: none;
+    }
+
+    #head-wp .col-right {
+        width: 100%;
+        background-color: blueviolet;
+    }
+
+}

@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+    background-color: lightgreen;
+    margin: auto;
+}
+
+.col {
+    width: 100%;
+}
+
+/* UTILITY */
+
+.row {
+    display: flex;
+}
+
+.h-130 {
+    height: 130px;
+}
+
+.avatar-img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.p-20 {
+    padding: 15px 25px;
+}
+
+/* PARTE SUPERIORE */
+
+#head-wp .col-left {
+    width: 35%;
+    border-right: 2px solid #D6D6D6;
+}
+
+#head-wp .col-right {
+    width: 65%;
+}
+
+#head-wp .col {
+    background: var(--main-gray);
+}
