@@ -16,6 +16,16 @@
         background-color: blueviolet;
     }
 
+    #head-wp .col-hide {
+        display: none;
+    }
+
+    #head-wp .p-20 {
+        padding: 10px 0px;
+        margin: auto;
+    }
+
+
     /* MENU LATERALE */
 
     .l-head {

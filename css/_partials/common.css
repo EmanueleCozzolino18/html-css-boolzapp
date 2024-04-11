@@ -5,7 +5,7 @@ body {
 
 .container {
     height: 90%;
-    width: 90%;
+    width: 1200px;
     background-color: lightgreen;
     margin: auto;
 }
@@ -31,12 +31,29 @@ body {
 }
 
 .avatar-img {
-    width: 35%;
+    width: 50px;
     border-radius: 50%;
 }
 
 .p-20 {
     padding: 15px 25px;
+}
+
+.p-d20 {
+    padding: 0px 20px;
+}
+
+.icon {
+    color: var(--icon-color);
+    font-size: 30px;
+}
+
+.center-cont {
+    align-items: center;
+}
+
+.f-end {
+    justify-content: flex-end;
 }
 
 /* PARTE SUPERIORE */
@@ -57,4 +74,8 @@ body {
 /* MENU LATERALE */
 #l-menu .m-col {
     width: 35%;
+}
+
+.test {
+    color: black;
 }
